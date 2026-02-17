@@ -30,6 +30,25 @@ let myObj = {
 const myFunction = function(){
     console.log("hii nanadnai");
 }
-console.log(typeof bigNumber)
-console.log(typeof heros)
-console.log(typeof myFunction)
+// console.log(typeof bigNumber)
+// console.log(typeof heros)
+// console.log(typeof myFunction)
+
+
+
+// stack ( primitive), heap (non primitive)
+
+let myToutubeName = "codewithlugai"
+let anothername = myToutubeName;
+// console.log(anothername);
+// console.log(myToutubeName);
+
+let userOne = {
+    email: 'email@gmail.com',
+    upi: 'user@ybl'
+}
+
+console.log(userOne)
+let userTwo = userOne
+userTwo.email = 'nandnai@gmail.com'
+console.log(userTwo)
