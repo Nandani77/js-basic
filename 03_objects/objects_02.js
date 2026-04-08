@@ -3,7 +3,7 @@ const tinderUser = {}
 tinderUser.id = "123qwe"
 tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false
-console.log(tinderUser);
+// console.log(tinderUser);
 
 const regularUser= {
     email: "nandani@323@gmail.com",
@@ -45,9 +45,39 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js complete",
+    price: "999",
+    courseInstructor:"hitesh"
+}
+// course.courseInstructor
+const{courseInstructor} = course
+const{coursename}=course
+// console.log(coursename);
+
+
+
+// const navbar = ({company}) =>{
+
+// }
+
+// navbar(company = "nandani")
+
+// destructuring
+
+// api note in to aboject formate
+
+// {
+//     "name": "nandani",
+//     "courseName" : "js complete"
+// }
+
+// api note in to array formate
+
